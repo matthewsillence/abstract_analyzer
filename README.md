@@ -9,7 +9,7 @@ When the search results are displayed, you will be given the option to export th
 Save the file locally, or upload to the Google Colaboratory directory.
 
 ## Data Preparation
-The first part of the Python script used Pandas to read in the repository CSV file and idolate the column with the thesis abstract data. This content is then written to an 'abstracts.csv.' The CSV data is then rewritten as the text file 'abstracts.txt'.
+The first part of the Python script used Pandas to read in the repository CSV file and isolate the column with the thesis abstract data. This content is then written to an 'abstracts.csv.' The CSV data is then rewritten as the text file 'abstracts.txt'.
 
 ## Text Tokenization
 The text is tokenized using NLTK, and punctuation is removed. The total number of tokens in the text file can be displayed.
